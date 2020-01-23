@@ -1,0 +1,72 @@
+/*	Selector {
+
+		Property: value;
+	}*/
+
+	* {
+
+		text-align: center;
+	}
+
+	body {
+
+		background-image: url(k.png);
+		background-size: cover;
+	}
+
+	h2 {
+
+		color: red;
+	}
+
+	h2 + p {
+		color: #AA4139;
+		text-align: center;
+		border: 5px solid rgba(255, 176, 170,  0.6);
+		cursor: pointer;
+	}
+ 
+	p {
+		line-height: 5px;
+		font-style: italic;
+		font-weight: bold;
+		font-size: 180%;
+		font-family: 'Poiret One', cursive;
+
+	}
+
+	img {
+
+		float: left;
+	}
+
+	footer {
+
+		clear: both;
+		text-align: center;
+	}
+
+	li {
+
+		list-style: none;
+		display: inline-block;
+	}
+	.paragraph:first-child {
+
+		border: 3px dashed green;
+	}
+
+	.active {
+
+		color: red;
+	}
+
+	#div1 {
+
+		background: rgba(0, 0, 255, 0.3);
+	}
+
+	#div2 {
+
+		background: rgba(255, 0, 0, 0.2);
+	}
